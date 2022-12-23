@@ -3,10 +3,14 @@
 //Sol 1: Brute Force using built-in array function .max()
 // O(n)
 
+function findMax1(input) {
+  input.max();
+}
+
 //Sol 2: 
 //O(n)
 
-function findMax(input) {
+function findMax2(input) {
   let maxValue = input[0];
 
   for (let i=0; i < input.length; i++) {
