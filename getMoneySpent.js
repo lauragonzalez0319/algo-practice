@@ -15,6 +15,7 @@ function getMoneySpent(keyboards, drives, b) {
           }
       }
   }
+  
   if (maxSpent === 0) {
       return -1;
   } else {
